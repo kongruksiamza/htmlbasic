@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML5 Semantic</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header" class="card">
+      <h1>HEADER</h1>
+      <p>KongRuksiam Studio</p>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+      <!-- Welcome Section -->
+      <div id="welcome" class="card">
+        <h2>ยินดีต้อนรับเข้าสู่เว็บไซต์</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          cupiditate itaque possimus numquam corporis odit deserunt voluptas
+          repellat ad ex earum magnam mollitia magni eaque nisi, excepturi nam
+          temporibus! Sed. <br />
+          <a href="#" class="text-center">ช่องยูทูป Kongruksiam</a>
+          <a href="#" class="text-center">แฟนเพจ Kongruksiam</a>
+        </p>
+      </div>
+      <!-- Blog Section -->
+      <div id="blog">
+        <h2>บทความ</h2>
+        <!-- Article One -->
+        <div class="article">
+          <h3>ท่องเที่ยว</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+            totam accusantium officiis!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Quos quia enim corrupti veritatis deleniti culpa officia, sunt soluta, 
+            sint fugiat perspiciatis! Suscipit quibusdam sit neque reprehenderit tempora illo vero aliquid.
+            <a href="#">Click</a>
+          </p>
+        </div>
+        <hr>
+        <!-- Article Two -->
+        <div class="article">
+          <h3>ร้านอาหาร</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+            totam accusantium officiis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+            totam accusantium officiis!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Quos quia enim corrupti veritatis deleniti culpa officia, sunt soluta, 
+            sint fugiat perspiciatis! Suscipit quibusdam sit neque reprehenderit tempora illo vero aliquid.
+            <a href="#">Click</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar-->
+    <div id="sidebar" class="card">
+      <h3>เมนู</h3>
+      <!-- Navigation -->
+      <ul id="main-nav">
+        <li><a href="#">หน้าแรก</a></li>
+        <li><a href="#">เกี่ยวกับเรา</a></li>
+        <li><a href="#">งานของเรา</a></li>
+      </ul>
+      <hr />
+      <h3>ติดต่องาน</h3>
+      <ul>
+        <li><strong>ที่อยู่:</strong> 555 กรุงเทพ 10555</li>
+        <li><strong>เบอร์โทรศัพท์:</strong> (+66) 05-555-5555</li>
+        <li><strong>อีเมล:</strong> contact555@gmail.com</li>
+      </ul>
+    </div>
+
+    <div class="clr"></div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <p class="text-center">Copyright &copy; KongRuksiam 2020</p>
+    </div>
+  </body>
+</html>
